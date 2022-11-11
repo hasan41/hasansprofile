@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import CloseIcon from '@material-ui/icons/Close';
 import React, { useContext, useRef, useState } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
-import { FaFacebook, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import isEmail from 'validator/lib/isEmail';
@@ -359,14 +359,14 @@ function Contacts() {
                                     <FaStackOverflow aria-label='Stack Overflow' />
                                 </a>
                             )}
-                            {socialsData.facebook && (
+                            {socialsData.instagram && (
                                 <a
-                                    href={socialsData.facebook}
+                                    href={socialsData.instagram}
                                     target='_blank'
                                     rel="noopener noreferrer"
                                     className={classes.socialIcon}
                                 >
-                                    <FaFacebook aria-label='facebook' />
+                                    <FaInstagram aria-label='instagram' />
                                 </a>
                             )}
                         </div>

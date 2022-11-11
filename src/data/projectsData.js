@@ -11,75 +11,75 @@ import two from '../assets/svg/projects/two.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
-    },
-    {
-        id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
+        projectName: 'Suicidal Data App (1996 - 2016)',
+        projectDesc: 'Collab with four Georgia Tech students by clustering massive data from Kaggle and using Linear Regression model to predict Suicide caused based on country geographics, location, weather, etc',
+        tags: ['Python', 'Flask', 'PostgreSQL', 'AWS LightSail'],
+        code: 'https://github.com/hasan41/Suicidal-Data-WebApp',
+        demo: 'https://colab.research.google.com/drive/13OsAdfXqhlZ9DmpC6IBRpBcaqNhww6FU?usp=sharing',
         image: seven
     },
     {
+        id: 2,
+        projectName: 'ASL Predictor App (ML)',
+        projectDesc: 'Collab with three Georgia Tech students and used Machine Learning algos such as SVM, NNs, etc to get the best accuracy of hand signs around the USA. Got Kaggle dataset.',
+        tags: ['Python', 'SQL', 'Numpy'],
+        code: 'https://github.com/hasan41/MachineLearningProject',
+        demo: 'https://github.com/hasan41/MachineLearningProject/blob/main/README.md',
+        image: three
+    },
+    {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
+        projectName: 'Chronic (Rose Language App)',
+        projectDesc: 'Collab with five Georgia Tech students to build a language based web app named Rose (derived from Africa) for a client.',
+        tags: ['React', 'Material UI', 'CSS', 'MongoDB'],
+        code: 'https://github.com/hasan41/chronic',
+        demo: 'https://github.com/hasan41/chronic',
         image: eight
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
+        projectName: 'Language Skills App (Android)',
+        projectDesc: 'My second app on Android Studio that is a skill based app of quizing user on topics English, Arabic, and Math. It has a S3XY UI considering it was built in 2019 ;)',
+        tags: ['Java', 'SQL', 'Firebase', 'Bootstrap'],
+        code: 'https://github.com/hasan41/LanguageSkillApp',
+        demo: 'https://github.com/hasan41/LanguageSkillApp/blob/master/README.md',
+        image: six
     },
     {
         id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
+        projectName: 'Coming Soon...',
+        projectDesc: 'I promise I have too many projects but just lazy to upload them now...',
         tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: '',
+        demo: '',
         image: five
     },
     {
         id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
+        projectName: 'Coming Soon...',
+        projectDesc: 'I promise I have too many projects but just lazy to upload them now...',
         tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: '',
+        demo: '',
         image: one
     },
     {
         id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
+        projectName: 'Coming Soon...',
+        projectDesc: 'I promise I have too many projects but just lazy to upload them now...',
         tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: '',
+        demo: '',
         image: two
     },
     {
         id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
+        projectName: 'Coming Soon...',
+        projectDesc: 'I promise I have too many projects but just lazy to upload them now...',
         tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
+        code: '',
+        demo: '',
+        image: four
     },
 ]
 

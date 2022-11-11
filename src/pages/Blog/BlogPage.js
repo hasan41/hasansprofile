@@ -71,13 +71,13 @@ function BlogPage() {
     return (
         <div className="blogPage" style={{backgroundColor: theme.secondary}}>
             <Helmet>
-                <title>{headerData.name} | Blog</title>
+                <title>{headerData.name} | Achivements</title>
             </Helmet>
             <div className="blogPage--header" style={{backgroundColor: theme.primary}}>
                 <Link to="/">
                     <AiOutlineHome className={classes.home}/>
                 </Link>
-                <h1 style={{color: theme.secondary}}>Blogs</h1>
+                <h1 style={{color: theme.secondary}}>Achivements</h1>
             </div>
             <div className="blogPage--container">
                 <div className="blog--search">
