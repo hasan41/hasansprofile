@@ -153,7 +153,7 @@ function Landing() {
                                     rel="noopener noreferrer"
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Sexy Resume
+                                        S3XY Resume
                                     </Button>
                                 </a>
                             )}
