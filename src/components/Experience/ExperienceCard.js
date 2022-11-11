@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
 import expImgBlack from '../../assets/svg/experience/expImgBlack.svg';
+// import expImgBlack from '../../assets/logo/visa.jpg';
 import expImgWhite from '../../assets/svg/experience/expImgWhite.svg';
 
 import './Experience.css';
