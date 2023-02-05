@@ -105,7 +105,7 @@ function Navbar() {
         },
         drawerLinks: {
             fontFamily: 'var(--primaryFont)',
-            width: '50%',
+            width: '66%',
             fontSize: '1.3rem',
             fontWeight: 600,
             [t.breakpoints.down('sm')]: {
@@ -256,7 +256,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Blog
+                                        Achivements
                                     </span>
                                 </div>
                             </NavLink>

@@ -9,7 +9,7 @@ const ChangeTheme = () => {
 
   const useStyles = makeStyles(() => ({
     icon: {
-      fontSize: '1.5rem',
+      fontSize: '1.98rem',
       color: theme.buttonColor,
       '&:hover': {
         transform: 'scale(1.08)',
