@@ -9,7 +9,7 @@ import { socialsData } from '../../data/socialsData';
 import './Landing.css';
 
 import {
-    FaInstagram, FaGithub, FaLinkedin
+    FaInstagram, FaGithub, FaLinkedin, FaSnapchat
 } from 'react-icons/fa';
 
 function Landing() {
@@ -107,6 +107,19 @@ function Landing() {
                                     className='landing--social instagram-icon'
                                     style={{ color: theme.primary }}
                                     aria-label='instagram'
+                                />
+                            </a>
+                        )}
+                        {socialsData.snap && (
+                            <a
+                                href={socialsData.snap}
+                                target='_blank'
+                                rel="noopener noreferrer"
+                            >
+                                <FaSnapchat
+                                    className='landing--social snap-icon'
+                                    style={{ color: theme.primary }}
+                                    aria-label='snap'
                                 />
                             </a>
                         )}

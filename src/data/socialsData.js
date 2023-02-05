@@ -1,6 +1,7 @@
 export const socialsData = {
     github: 'https://github.com/hasan41',
     instagram: 'https://www.instagram.com/realhasan_naseer/',
+    snap: 'https://t.snapchat.com/7cTq8Jsa',
     linkedIn: 'https://www.linkedin.com/in/hasannaseer41/',
     twitter: 'https://twitter.com/elonmusk',
     medium: 'https://hasan41.github.io/hasan.github.io/',

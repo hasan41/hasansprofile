@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import CloseIcon from '@material-ui/icons/Close';
 import React, { useContext, useRef, useState } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
-import { FaInstagram, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaLinkedinIn, FaMediumM, FaTwitter, FaYoutube, FaSnapchat } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import isEmail from 'validator/lib/isEmail';
@@ -348,17 +348,6 @@ function Contacts() {
                                     <FaYoutube aria-label='YouTube' />
                                 </a>
                             )}
-
-                            {socialsData.stackOverflow && (
-                                <a
-                                    href={socialsData.stackOverflow}
-                                    target='_blank'
-                                    rel="noopener noreferrer"
-                                    className={classes.socialIcon}
-                                >
-                                    <FaStackOverflow aria-label='Stack Overflow' />
-                                </a>
-                            )}
                             {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
@@ -367,6 +356,16 @@ function Contacts() {
                                     className={classes.socialIcon}
                                 >
                                     <FaInstagram aria-label='instagram' />
+                                </a>
+                            )}
+                            {socialsData.snap && (
+                                <a
+                                    href={socialsData.snap}
+                                    target='_blank'
+                                    rel="noopener noreferrer"
+                                    className={classes.socialIcon}
+                                >
+                                    <FaSnapchat aria-label='snap' />
                                 </a>
                             )}
                         </div>
